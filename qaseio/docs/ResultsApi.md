@@ -27,7 +27,6 @@ This method allows to create test run result by Run Id.
 import time
 import qaseio
 from qaseio.api import results_api
-from qaseio.model.response import Response
 from qaseio.model.result_create import ResultCreate
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.qase.io/v1
